@@ -1,4 +1,4 @@
-2011-2012  E-Yantra  Group 14 : Autonomous Security Guard Robot
+2011-2012  E-Yantra  Group 15 : Autonomous Security Guard Robot
 ================================================
 
 Group Info:
@@ -6,12 +6,7 @@ Group Info:
 +   Rohit Vijayaraghavan
 +   MCG Karthik
 +   Ayush Sanghvi
-+   Sahil Bareja
-
-Extension Of
-------------
-
-none
++   Sahil Barej
 
 
 
@@ -31,7 +26,7 @@ This project is intended to be used as either a low cost alternative to human se
 	The robot should detect intruders, walls and suspicious sounds, within a range of 3 meters. It should be a cost effective solution and replace the manual security system in place. The robot should patrol on a flat land. The robot should run on battery for a minimum of 4 hours. The robot should avoid crashing to walls and stationary objects. Further, the maximum operating time for the robot to avoid the burning of its circuit should be determined with the manufacturers. We are estimating it to be 4-6hours.  The robot will not be able to climb stairs or objects higher than the estimated by further tests. The maximum volume of the speakers should be set on 75% of full load to avoid damaging the speakers. The weight of the robot and hardware combined should be kept as low as possible to avoid damaging the motion wheel motors.  The sound sensor can only detect loud noises.
 
 + Assumptions:-
-	 The robot can work for 4 hours without the need to recharge its battery. The sharp sensors detect walls and blocking objects with a range of 3 – 80cm far from the robot. The minimum waiting time before changing direction of motion if nothing was detected is 10 seconds (assumption). If the robot has detected something, the maximum delay between the detection and issuance of the sound alarm is 0.5 second (assumption). The minimum number of sensors to be mounted on the robot is 4 and maximum as per requirements and specifications mentioned by E-Yantra. The minimum number of wheels needed is 2 and maximum if required will need chassis redevelopment in approval of our mentor. The minimum number of DC motors needed is2 and maximum to 4 as determined in approval of our mentor.
+	 The robot can work for 4 hours without the need to recharge its battery. The sharp sensors detect walls and blocking objects with a range of 3 ï¿½ 80cm far from the robot. The minimum waiting time before changing direction of motion if nothing was detected is 10 seconds (assumption). If the robot has detected something, the maximum delay between the detection and issuance of the sound alarm is 0.5 second (assumption). The minimum number of sensors to be mounted on the robot is 4 and maximum as per requirements and specifications mentioned by E-Yantra. The minimum number of wheels needed is 2 and maximum if required will need chassis redevelopment in approval of our mentor. The minimum number of DC motors needed is2 and maximum to 4 as determined in approval of our mentor.
 
 
 
