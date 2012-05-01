@@ -1,1 +1,65 @@
-Hello World
+2011-2012  E-Yantra  Group 14 : Autonomous Security Guard Robot
+================================================
+
+Group Info:
+------------
++   Rohit Vijayaraghavan
++   MCG Karthik
++   Ayush Sanghvi
++   Sahil Bareja
+
+Extension Of
+------------
+
+none
+
+
+
+Project Description
+-------------------
+We'll be working on an autonomous security guard robot. Such robot should monitor and report the status of his guarding area, patrol inside a designated area and report intruders. 
+
++ Product Perspective:- 
+This project is intended to be used as either a low cost alternative to human security personnel or as a supplement to in-place security of a company or organization. It can be used to establish a set of eyes and ears in a work or storage facility that can be accessed from outside of the facility and alert the proper authority if a situation was to arise. Being a monitoring device it would also serve as a deterrent to would be thieves.  
+
++ Product Functions:- 
+	The product functions as a simple autonomous security bot which identifies threat to a specific are. There are different aspects which determine when a threat is present and the details of its working are explained in the next section
+
++ User Characteristics: - The end-user interacting with the product is expected to be aware of the behaviour of FireBird V. The end-user is also expected to be aware of the constraints on use cases of the product described in this document. 
+
++ Constraints: -
+	The robot should detect intruders, walls and suspicious sounds, within a range of 3 meters. It should be a cost effective solution and replace the manual security system in place. The robot should patrol on a flat land. The robot should run on battery for a minimum of 4 hours. The robot should avoid crashing to walls and stationary objects. Further, the maximum operating time for the robot to avoid the burning of its circuit should be determined with the manufacturers. We are estimating it to be 4-6hours.  The robot will not be able to climb stairs or objects higher than the estimated by further tests. The maximum volume of the speakers should be set on 75% of full load to avoid damaging the speakers. The weight of the robot and hardware combined should be kept as low as possible to avoid damaging the motion wheel motors.  The sound sensor can only detect loud noises.
+
++ Assumptions:-
+	 The robot can work for 4 hours without the need to recharge its battery. The sharp sensors detect walls and blocking objects with a range of 3 – 80cm far from the robot. The minimum waiting time before changing direction of motion if nothing was detected is 10 seconds (assumption). If the robot has detected something, the maximum delay between the detection and issuance of the sound alarm is 0.5 second (assumption). The minimum number of sensors to be mounted on the robot is 4 and maximum as per requirements and specifications mentioned by E-Yantra. The minimum number of wheels needed is 2 and maximum if required will need chassis redevelopment in approval of our mentor. The minimum number of DC motors needed is2 and maximum to 4 as determined in approval of our mentor.
+
+
+
+Technologies Used
+-------------------
+
+Remove the items that do no apply to your project and keep the remaining ones.
+
++   Embedded C
++   BASCOM
++   MATLAB
++   SPARKV
+ 
+
+
+Installation Instructions
+=========================
+
+
++ Download MATLAB.
+
+References
+===========
+
+Please give references to importance resources. 
+
++ Laurence R. Rabiner, Bernard Gold. Theory and Applications of Digital Signal Processing. London: Prentice-Hall International, Inc, 1975.
++ Security Guard Robots using Map Information. IEEEXplore. Mar 10, 2009. http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=00637950
++ Florida International University's students project, 'Parallel Parking Vehicle'. http://web.eng.fiu.edu/~fanj/course_materials/senior_spring08/proposal_parallel.pdf
++ Patent Storm. 'Home cleaning robot'. http://www.patentstorm.us/patents/6459955.html.
++ Rickey's World. http://www.8051projects.net
